@@ -1,7 +1,7 @@
 const shell = require("shelljs");
 const fs = require("fs");
 
-var text = fs.readFileSync("quotes.txt").toString('utf-8');
+var text = fs.readFileSync("resources/quotes.txt").toString('utf-8');
 var quotes = text.split("\t")
 
 function botReady() {
